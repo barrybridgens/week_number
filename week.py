@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#
 # Display the ISO week number
 
 from Tkinter import *
@@ -26,4 +28,4 @@ class Application(Frame):
 root = Tk()
 app = Application(master=root)
 app.mainloop()
-root.destroy()
+#root.destroy()
